@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=GraphAlgorithmsInterface
+comment1.params=origin
+comment1.target=java.util.Queue\ getBreadthFirstTraversal(java.lang.Object)
+comment1.text=\ Performs\ a\ breadth-first\ traversal\ of\ this\ graph.\r\n\ @param\ origin\ An\ object\ that\ labels\ the\ origin\ vertex\ of\ the\ traversal.\r\n\ @return\ A\ queue\ of\ labels\ of\ the\ vertices\ in\ the\ traversal,\ with\r\nthe\ label\ of\ the\ origin\ vertex\ at\ the\ queue's\ front.
+comment2.params=origin
+comment2.target=java.util.Queue\ getDepthFirstTraversal(java.lang.Object)
+comment2.text=\ Performs\ a\ depth-first\ traversal\ of\ this\ graph.\r\n\ @param\ origin\ An\ object\ that\ labels\ the\ origin\ vertex\ of\ the\ traversal.\r\n\ @return\ A\ queue\ of\ labels\ of\ the\ vertices\ in\ the\ traversal,\ with\r\nthe\ label\ of\ the\ origin\ vertex\ at\ the\ queue's\ front.
+comment3.params=
+comment3.target=java.util.Stack\ getTopologicalOrder()
+comment3.text=\ Performs\ a\ topological\ sort\ of\ the\ vertices\ in\ this\ graph\ without\ cycles.\r\n\ @return\ A\ stack\ of\ vertex\ labels\ in\ topological\ order,\ beginning\r\nwith\ the\ stack's\ top.
+comment4.params=begin\ end\ path
+comment4.target=int\ getShortestPath(java.lang.Object,\ java.lang.Object,\ java.util.Stack)
+comment4.text=\ Finds\ the\ shortest-length\ path\ between\ two\ given\ vertices\ in\ this\ graph.\r\n\ @param\ begin\ An\ object\ that\ labels\ the\ path's\ origin\ vertex.\r\n\ @param\ end\ An\ object\ that\ labels\ the\ path's\ destination\ vertex.\r\n\ @param\ path\ A\ stack\ of\ labels\ that\ is\ empty\ initially;\r\n\ \ \ \ \ \ at\ the\ completion\ of\ the\ method,\ this\ stack\ contains\r\n\ \ \ \ \ \ the\ labels\ of\ the\ vertices\ along\ the\ shortest\ path;\r\n\ \ \ \ \ \ the\ label\ of\ the\ origin\ vertex\ is\ at\ the\ top,\ and\r\n\ \ \ \ \ \ the\ label\ of\ the\ destination\ vertex\ is\ at\ the\ bottom\r\n@return\ The\ length\ of\ the\ shortest\ path.
+comment5.params=begin\ end\ path
+comment5.target=double\ getCheapestPath(java.lang.Object,\ java.lang.Object,\ java.util.Stack)
+comment5.text=\ Finds\ the\ least-cost\ path\ between\ two\ given\ vertices\ in\ this\ graph.\r\n\ @param\ begin\ An\ object\ that\ labels\ the\ path's\ origin\ vertex.\r\n\ @param\ end\ An\ object\ that\ labels\ the\ path's\ destination\ vertex.\r\n\ @param\ path\ A\ stack\ of\ labels\ that\ is\ empty\ initially;\r\n\ \ \ \ \ \ at\ the\ completion\ of\ the\ method,\ this\ stack\ contains\r\n\ \ \ \ \ \ the\ labels\ of\ the\ vertices\ along\ the\ cheapest\ path;\r\n\ \ \ \ \ \ the\ label\ of\ the\ origin\ vertex\ is\ at\ the\ top,\ and\r\n\ \ \ \ \ \ the\ label\ of\ the\ destination\ vertex\ is\ at\ the\ bottom\r\n@return\ The\ cost\ of\ the\ cheapest\ path.
+numComments=6
